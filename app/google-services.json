@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "550945987979",
+    "firebase_url": "https://onlinfo-bffca.firebaseio.com",
+    "project_id": "onlinfo-bffca",
+    "storage_bucket": "onlinfo-bffca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550945987979:android:5179a42c79536f693da38e",
+        "android_client_info": {
+          "package_name": "com.example.onlinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550945987979-71fn7qg22jhbph3dlri2c6l6vmpgl6de.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.onlinfo",
+            "certificate_hash": "97d3255c436b0966e58471dc0b8b9d24cb61ef98"
+          }
+        },
+        {
+          "client_id": "550945987979-4n6fdas9rf4auh80fahs3f9o54ivv47d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-cwhhqYfM9EmNRlMQiVW6bVDXbCXdbCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550945987979-4n6fdas9rf4auh80fahs3f9o54ivv47d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

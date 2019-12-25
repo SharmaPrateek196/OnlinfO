@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_shape"
+        android:elevation="1dp"
+        android:padding="8dp"
+        app:cardCornerRadius="15dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="335dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/iv_circular"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ic_launcher_foreground"
+                    app:civ_border_color="@color/colorPrimary"
+                    app:civ_border_width="0dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="#32797A81"
+                    app:civ_shadow_radius="10" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_poster_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="User_nyme"
+                        android:textColor="#E2000000"
+                        android:textSize="15sp"
+                        android:clickable="true"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/tv_post_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Posting_tyme"
+                        android:textColor="#790E0E0E"
+                        android:textSize="10sp"
+                        android:textStyle="bold"></TextView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--290 300-->
+
+        <ImageView
+
+            android:id="@+id/iv_card_view"
+            android:layout_width="335dp"
+            android:layout_height="311dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="73dp"
+            android:clickable="true"
+            android:scaleType="centerCrop" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="385dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="335dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/btn_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#FDB33232"
+                android:text="Comment"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="335dp"
+                android:layout_height="3dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/shape_like_bar"></LinearLayout>
+
+
+            <TextView
+                android:id="@+id/title_card_view"
+                android:layout_width="335dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="Title yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                android:textColor="#E2000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desc_card_view"
+                android:layout_width="335dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="8dp"
+                android:paddingEnd="8dp"
+                android:paddingBottom="5dp"
+                android:text="TextView" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
